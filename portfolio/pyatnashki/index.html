@@ -1,0 +1,914 @@
+<!doctype html>
+<html lang="ru" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Детский центр «Пятнашки» — развивающие занятия для детей 1–10 лет в Казани</title>
+<meta name="description" content="Развивающие занятия, подготовка к школе, английский, логопед и робототехника для детей от 1 до 10 лет. Группы до 6 детей. Первое занятие бесплатно.">
+<meta property="og:title" content="Детский центр «Пятнашки»">
+<meta property="og:description" content="Группы до 6 детей, педагоги со стажем, пробное занятие бесплатно.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%231A1530'/%3E%3Ccircle cx='11' cy='12' r='3.2' fill='%23fff'/%3E%3Ccircle cx='21' cy='12' r='3.2' fill='%23FFC23D'/%3E%3Ccircle cx='11' cy='21' r='3.2' fill='%233CC6A8'/%3E%3Ccircle cx='21' cy='21' r='3.2' fill='%23fff'/%3E%3C/svg%3E">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ChildCare",
+  "name": "Детский центр «Пятнашки»",
+  "telephone": "+7 900 000-00-00",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Казань",
+    "streetAddress": "ул. Солнечная, 15"
+  },
+  "openingHours": ["Mo-Fr 09:00-20:00", "Sa 10:00-15:00"],
+  "priceRange": "700–1200 ₽"
+}
+</script>
+
+<link rel="stylesheet" href="../../fonts/fonts.css">
+<script>document.documentElement.classList.replace('no-js', 'js');</script>
+<style>
+:root {
+  --bg: #FFFFFF;
+  --bg-2: #F5F6FA;          --surface: #FFFFFF;
+  --ink: #1A1530;           --muted: #615C74;
+  --line: #E7E7EF;
+  --accent: #C93A20;        --sun: #FFC94D;
+  --mint: #2BB38F;
+  --sky: #6FA8FF;
+  --lilac: #A58BFF;
+  --rose: #FF8FB1;
+  --soft-accent: #FFEDE8;
+  --soft-mint: #E3F6F0;
+  --soft-sky: #E8F0FF;
+  --soft-sun: #FDEBF3;
+  --soft-lilac: #F0ECFF;
+  --radius: 24px;
+  --font: "Manrope", "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+  --font-head: var(--font);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 17px; line-height: 1.6; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+img { max-width: 100%; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--lilac); outline-offset: 3px; border-radius: 10px; }
+h1, h2, h3 { font-family: var(--font-head); font-weight: 800; line-height: 1.06; letter-spacing: -0.035em; margin: 0; text-wrap: balance; }
+h2 { font-size: clamp(32px, 4.2vw, 54px); }
+h3 { font-size: 19px; letter-spacing: -0.02em; line-height: 1.25; }
+p { margin: 0; }
+
+.wrap { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+section { padding: 96px 0; }
+.section-head { max-width: 700px; margin-bottom: 40px; }
+.section-head p { color: var(--muted); margin-top: 14px; font-size: 18px; }
+.eyebrow { display: none; }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 54px; padding: 0 28px; border-radius: 999px; border: 0; font: inherit; font-weight: 700; font-size: 16px; text-decoration: none; cursor: pointer; white-space: nowrap; transition: transform .15s, box-shadow .2s, background .2s, border-color .2s; }
+.btn:active { transform: scale(.98); }
+.btn-primary { background: var(--ink); color: #fff; }
+.btn-primary:hover { background: #2E2750; box-shadow: 0 14px 30px -14px rgba(26,21,48,.7); }
+.btn-ghost { background: #fff; color: var(--ink); border: 1px solid var(--line); }
+.btn-ghost:hover { border-color: var(--ink); }
+.btn-sm { min-height: 44px; padding: 0 20px; font-size: 15px; }
+
+.concept-bar { background: var(--ink); color: rgba(255,255,255,.8); font-size: 13.5px; text-align: center; padding: 8px 16px; }
+.concept-bar a { color: #fff; font-weight: 700; }
+
+header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.85); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid transparent; transition: border-color .2s; }
+header.scrolled { border-bottom-color: var(--line); }
+.nav { display: flex; align-items: center; gap: 28px; height: 74px; }
+.logo { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 800; font-size: 19px; letter-spacing: -0.02em; }
+.logo small { display: block; font-size: 12px; font-weight: 600; color: var(--muted); letter-spacing: 0; }
+.nav-links { display: flex; gap: 4px; margin-left: auto; }
+.nav-links a { text-decoration: none; font-weight: 600; font-size: 15px; color: var(--muted); padding: 8px 14px; border-radius: 999px; transition: background .2s, color .2s; }
+.nav-links a:hover { color: var(--ink); background: var(--bg-2); }
+.nav-phone { font-weight: 700; text-decoration: none; white-space: nowrap; }
+.burger { display: none; margin-left: auto; width: 46px; height: 46px; border-radius: 50%; border: 1px solid var(--line); background: #fff; cursor: pointer; }
+.burger span { display: block; width: 18px; height: 2px; background: var(--ink); margin: 4px auto; border-radius: 2px; }
+
+.hero { padding: 36px 0 88px; }
+.hero-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 56px; align-items: center; }
+.hero-badge { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--line); color: var(--ink); font-weight: 600; font-size: 14px; padding: 7px 14px; border-radius: 999px; margin-bottom: 24px; }
+.hero-badge i { width: 8px; height: 8px; border-radius: 50%; background: var(--mint); box-shadow: 0 0 0 4px rgba(43,179,143,.18); }
+.hero h1 { font-size: clamp(40px, 5.6vw, 76px); letter-spacing: -0.05em; line-height: 1; }
+.hero h1 em { font-style: normal; color: var(--accent); }
+.hero-lead { font-size: 19px; color: var(--muted); margin: 22px 0 32px; max-width: 520px; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.hero-facts { display: flex; flex-wrap: wrap; gap: 0; margin-top: 40px; border-top: 1px solid var(--line); }
+.hero-facts div { padding: 18px 28px 0 0; margin-right: 28px; }
+.hero-facts b { display: block; font-size: 26px; letter-spacing: -0.03em; }
+.hero-facts span { font-size: 14px; color: var(--muted); }
+
+.hero-art { position: relative; aspect-ratio: 1 / 1.04; width: 100%; max-width: 560px; justify-self: end; border-radius: 40px; overflow: hidden; isolation: isolate; background: #F3F1FF; }
+.aurora { position: absolute; inset: -20%; z-index: -1; background:
+  radial-gradient(38% 36% at 30% 30%, #FFB39C 0%, transparent 70%),
+  radial-gradient(36% 34% at 72% 26%, #FFD97A 0%, transparent 70%),
+  radial-gradient(42% 40% at 70% 72%, #A58BFF 0%, transparent 70%),
+  radial-gradient(40% 38% at 26% 76%, #8EC5FF 0%, transparent 70%); filter: blur(8px); }
+.hero-art::after { content: ""; position: absolute; inset: 0; z-index: -1; background-image: radial-gradient(rgba(255,255,255,.5) 1px, transparent 1px); background-size: 18px 18px; opacity: .5; }
+.art-num { position: absolute; left: 50%; top: 44%; transform: translate(-50%, -50%); white-space: nowrap; text-align: center; color: #fff; text-shadow: 0 10px 40px rgba(60,30,120,.25); }
+.art-num b { display: block; white-space: nowrap; font-size: clamp(84px, 10vw, 150px); font-weight: 800; letter-spacing: -0.07em; line-height: .9; }
+.art-num span { display: inline-block; margin-top: 10px; font-size: 15px; font-weight: 700; color: var(--ink); text-shadow: none; padding: 6px 14px; border-radius: 999px; background: rgba(255,255,255,.6); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+.glass { position: absolute; background: rgba(255,255,255,.62); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,.85); border-radius: 20px; padding: 14px 16px; font-size: 14px; line-height: 1.35; box-shadow: 0 20px 44px -24px rgba(40,20,90,.45); }
+.glass b { display: block; font-size: 15px; }
+.glass small { color: var(--muted); font-size: 13px; }
+.g-1 { top: 7%; left: 7%; }
+.g-1 .live { display: inline-flex; align-items: center; gap: 6px; color: #0F7A5E; font-weight: 700; font-size: 12px; margin-bottom: 2px; }
+.g-1 .live::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--mint); }
+.g-2 { right: 7%; bottom: 8%; display: flex; align-items: center; gap: 12px; }
+.g-2 .ok { width: 36px; height: 36px; border-radius: 50%; background: var(--ink); color: #fff; display: grid; place-items: center; font-weight: 800; }
+.g-3 { left: 7%; bottom: 24%; display: flex; align-items: center; gap: 10px; }
+.g-3 .dots { display: flex; }
+.g-3 .dots i { width: 30px; height: 30px; border-radius: 50%; border: 2px solid #fff; margin-left: -9px; display: grid; place-items: center; font-style: normal; font-size: 11px; font-weight: 800; color: #fff; }
+.g-3 .dots i:first-child { margin-left: 0; }
+
+.ages { display: inline-flex; flex-wrap: wrap; gap: 4px; padding: 5px; border-radius: 999px; background: var(--bg-2); margin-bottom: 28px; }
+.age-chip { min-height: 44px; padding: 0 20px; border-radius: 999px; border: 0; background: transparent; font: inherit; font-weight: 700; font-size: 15px; color: var(--muted); cursor: pointer; transition: background .2s, color .2s, box-shadow .2s; }
+.age-chip:hover { color: var(--ink); }
+.age-chip[aria-pressed="true"] { background: #fff; color: var(--ink); box-shadow: 0 6px 16px -8px rgba(26,21,48,.35); }
+.programs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.program { background: #fff; border-radius: var(--radius); padding: 22px; display: flex; flex-direction: column; gap: 10px; border: 1px solid var(--line); transition: transform .2s, border-color .2s, box-shadow .2s; }
+.program:hover { transform: translateY(-3px); border-color: #D6D5E2; box-shadow: 0 24px 44px -30px rgba(26,21,48,.35); }
+.program[hidden] { display: none; }
+.program .ico { width: 46px; height: 46px; border-radius: 14px; display: grid; place-items: center; }
+.program .ico svg { width: 24px; height: 24px; }
+.program .age { font-size: 13px; font-weight: 700; color: var(--muted); }
+.program p { font-size: 15px; color: var(--muted); flex: 1; }
+.program .meta { display: flex; justify-content: space-between; align-items: center; padding-top: 14px; border-top: 1px solid var(--line); font-size: 14px; }
+.program .price { font-weight: 800; font-size: 17px; }
+.program .trial { background: var(--bg-2); border: 0; padding: 8px 14px; border-radius: 999px; font: inherit; font-weight: 700; color: var(--ink); cursor: pointer; font-size: 13.5px; transition: background .2s, color .2s; }
+.program .trial:hover { background: var(--ink); color: #fff; }
+
+.first { position: relative; overflow: hidden; isolation: isolate; background: var(--ink); color: #fff; border-radius: 40px; padding: 60px; }
+.first::before { content: ""; position: absolute; z-index: -1; right: -10%; top: -40%; width: 70%; height: 120%; background: radial-gradient(closest-side at 40% 50%, rgba(165,139,255,.45), transparent), radial-gradient(closest-side at 75% 60%, rgba(255,143,177,.3), transparent); }
+.first .section-head p { color: rgba(255,255,255,.7); }
+.steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; counter-reset: step; }
+.step { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1); border-radius: var(--radius); padding: 22px; }
+.step::before { counter-increment: step; content: counter(step); display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; background: #fff; color: var(--ink); font-weight: 800; margin-bottom: 18px; }
+.step p { color: rgba(255,255,255,.7); font-size: 15px; margin-top: 6px; }
+
+.why { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.why-item { border-radius: var(--radius); padding: 28px; border: 1px solid var(--line); background: #fff !important; }
+.why-item h3 { margin-bottom: 8px; }
+.why-item p { color: var(--muted); font-size: 15px; }
+.why-item .big { font-size: 46px; font-weight: 800; letter-spacing: -0.05em; line-height: 1; margin-bottom: 18px; color: var(--accent); }
+
+.day-tabs { display: none; gap: 6px; overflow-x: auto; margin-bottom: 16px; padding-bottom: 4px; }
+.day-tab { flex: none; min-width: 52px; min-height: 44px; border-radius: 999px; border: 1px solid var(--line); background: #fff; font: inherit; font-weight: 700; cursor: pointer; color: var(--ink); }
+.day-tab[aria-selected="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+.schedule { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
+.day { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; }
+.day h3 { font-size: 16px; margin-bottom: 12px; }
+.slot { border-radius: 14px; padding: 10px 12px; margin-bottom: 8px; font-size: 14px; line-height: 1.3; }
+.slot:last-child { margin-bottom: 0; }
+.slot time { display: block; font-weight: 800; font-size: 15px; }
+.slot small { color: var(--muted); }
+.s-small { background: var(--soft-accent); }
+.s-school { background: var(--soft-sky); }
+.s-lang { background: var(--soft-mint); }
+.s-art { background: var(--soft-sun); }
+.s-tech { background: var(--soft-lilac); }
+.legend { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 18px; font-size: 14px; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 12px; height: 12px; border-radius: 4px; }
+
+.team { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.teacher { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 14px 20px; }
+.avatar { width: 100%; aspect-ratio: 4 / 3.6; border-radius: 16px; margin-bottom: 16px; display: grid; place-items: center; font-size: 44px; font-weight: 800; color: #fff; position: relative; overflow: hidden; }
+.avatar::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 30% 20%, rgba(255,255,255,.45), transparent 55%); }
+.avatar::after { content: "фото педагога"; position: absolute; bottom: 8px; right: 10px; font-size: 11px; font-weight: 600; opacity: .8; }
+.teacher h3, .teacher .role, .teacher ul { padding: 0 6px; }
+.teacher .role { color: var(--accent); font-weight: 700; font-size: 14px; margin: 4px 0 10px; }
+.teacher ul { margin: 0; list-style: none; font-size: 14px; color: var(--muted); }
+.teacher li { padding-left: 16px; position: relative; margin-bottom: 4px; }
+.teacher li::before { content: ""; position: absolute; left: 0; top: 9px; width: 6px; height: 6px; border-radius: 50%; background: var(--ink); opacity: .35; }
+
+.pcalc { display: grid; grid-template-columns: minmax(0,1.4fr) minmax(0,1fr); gap: 16px; align-items: start; }
+.pcalc > * { min-width: 0; }
+.pc-box { background: var(--bg-2); border-radius: 28px; padding: 28px; }
+.pc-step { margin-bottom: 26px; }
+.pc-step:last-child { margin-bottom: 0; }
+.pc-label { display: block; font-weight: 800; font-size: 16px; margin-bottom: 12px; }
+.pc-progs { display: flex; flex-wrap: wrap; gap: 8px; }
+.pc-prog { min-height: 42px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--line); background: #fff; font: inherit; font-weight: 700; font-size: 14.5px; color: var(--ink); cursor: pointer; transition: background .2s, border-color .2s, color .2s; }
+.pc-prog:hover { border-color: var(--ink); }
+.pc-prog[aria-checked="true"] { background: var(--ink); border-color: var(--ink); color: #fff; }
+.pc-packs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+.pc-pack { position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: 2px; text-align: left; padding: 16px; border-radius: 20px; border: 1.5px solid transparent; background: #fff; font: inherit; color: var(--ink); cursor: pointer; transition: border-color .2s, transform .2s; }
+.pc-pack:hover { transform: translateY(-2px); }
+.pc-pack[aria-checked="true"] { border-color: var(--ink); }
+.pc-pack b { font-size: 17px; }
+.pc-pack span { font-size: 13.5px; color: var(--muted); }
+.pc-pack .pc-per { font-weight: 800; color: var(--ink); font-size: 15px; margin-top: 6px; }
+.pc-pack .save { position: absolute; top: -10px; right: 10px; font-size: 11.5px; font-weight: 800; padding: 3px 9px; border-radius: 999px; background: var(--mint); color: #fff; }
+.pc-opts { display: grid; gap: 10px; }
+.pc-opt { display: flex; align-items: center; gap: 12px; padding: 14px 16px; border-radius: 18px; border: 1.5px solid transparent; background: #fff; cursor: pointer; font-size: 15px; transition: border-color .2s; }
+.pc-opt:has(input:checked) { border-color: var(--ink); }
+.pc-opt input { width: 20px; height: 20px; flex: none; margin: 0; accent-color: var(--ink); }
+.pc-opt small { display: block; color: var(--muted); font-size: 13px; }
+.pc-sum { position: sticky; top: 96px; overflow: hidden; isolation: isolate; color: #fff; border-radius: 28px; padding: 30px; background: var(--ink); }
+.pc-sum::after { content: ""; position: absolute; z-index: -1; right: -100px; top: -140px; width: 340px; height: 340px; border-radius: 50%; background: radial-gradient(circle, rgba(165,139,255,.5), transparent 65%); }
+.pc-sum .k { color: rgba(255,255,255,.66); font-size: 15px; }
+.pc-sum .total { font-size: clamp(40px, 4.4vw, 56px); font-weight: 800; letter-spacing: -0.045em; line-height: 1.05; margin: 6px 0 4px; }
+.pc-sum .per { color: #C9B8FF; font-weight: 700; }
+.pc-sum ul { list-style: none; padding: 18px 0 0; margin: 20px 0 22px; border-top: 1px solid rgba(255,255,255,.14); font-size: 15px; }
+.pc-sum li { display: flex; justify-content: space-between; gap: 12px; padding: 4px 0; color: rgba(255,255,255,.82); }
+.pc-sum li span:last-child { font-weight: 700; white-space: nowrap; }
+.pc-sum li.good span:last-child { color: #7FE6CB; }
+.pc-sum .btn { width: 100%; background: #fff; color: var(--ink); }
+.pc-sum .btn:hover { background: #F0ECFF; }
+.pc-sum .trial-note { margin-top: 14px; font-size: 13.5px; color: rgba(255,255,255,.62); }
+.offer-note { margin-top: 18px; font-size: 13px; color: var(--muted); }
+
+.reviews { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.review { background: #fff; border-radius: var(--radius); padding: 26px; border: 1px solid var(--line); }
+.stars { color: #F2A900; letter-spacing: 2px; font-size: 17px; margin-bottom: 12px; }
+.review p { font-size: 16px; }
+.review .who { margin-top: 16px; font-size: 14px; color: var(--muted); font-weight: 600; }
+.reviews-foot { margin-top: 22px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
+.rating { display: flex; align-items: center; gap: 10px; font-weight: 700; }
+.rating b { font-size: 32px; letter-spacing: -0.03em; }
+.demo-note { font-size: 13px; color: var(--muted); }
+
+.faq { max-width: 860px; }
+.faq details { border-bottom: 1px solid var(--line); }
+.faq details:first-child { border-top: 1px solid var(--line); }
+.faq summary { cursor: pointer; list-style: none; padding: 20px 0; font-weight: 700; font-size: 17px; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; flex: none; width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--line); display: grid; place-items: center; font-size: 20px; line-height: 1; transition: transform .25s; }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq details p { padding: 0 0 20px; color: var(--muted); font-size: 16px; }
+
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.form-card { background: var(--bg-2); border-radius: 32px; padding: 36px; }
+.form-card h2 { font-size: 32px; }
+.form-card form > p { color: var(--muted); margin: 10px 0 24px; }
+.field { margin-bottom: 14px; }
+.field label { display: block; font-weight: 700; font-size: 14px; margin-bottom: 6px; }
+.field input, .field select { width: 100%; min-height: 52px; border-radius: 14px; border: 1px solid var(--line); padding: 0 16px; font: inherit; color: var(--ink); background: #fff; transition: border-color .2s, box-shadow .2s; }
+.field input:focus, .field select:focus { outline: none; border-color: var(--ink); box-shadow: 0 0 0 4px rgba(26,21,48,.08); }
+.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.consent { display: flex; gap: 10px; align-items: flex-start; font-size: 13px; color: var(--muted); margin: 6px 0 18px; }
+.consent input { width: 20px; height: 20px; margin-top: 1px; flex: none; accent-color: var(--ink); }
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.form-card .btn { width: 100%; }
+.form-ok { display: none; text-align: center; padding: 30px 10px; }
+.form-ok .check { width: 64px; height: 64px; border-radius: 50%; background: var(--ink); color: #fff; display: grid; place-items: center; margin: 0 auto 16px; font-size: 28px; font-weight: 800; }
+.form-ok p { color: var(--muted); margin-top: 8px; }
+.form-card.sent form { display: none; }
+.form-card.sent .form-ok { display: block; }
+.contacts { display: flex; flex-direction: column; gap: 16px; }
+.map { flex: 1; min-height: 280px; border-radius: 32px; position: relative; overflow: hidden; background:
+    linear-gradient(90deg, transparent 47%, #fff 47%, #fff 53%, transparent 53%),
+    linear-gradient(0deg, transparent 60%, #fff 60%, #fff 65%, transparent 65%),
+    linear-gradient(35deg, transparent 30%, rgba(255,255,255,.85) 30%, rgba(255,255,255,.85) 33%, transparent 33%),
+    #E9EDF5; }
+.map .park { position: absolute; left: 8%; top: 10%; width: 30%; height: 35%; background: #D6EEE4; border-radius: 18px; }
+.map .pin { position: absolute; left: 50%; top: 62%; transform: translate(-50%, -100%); background: var(--ink); color: #fff; font-weight: 800; font-size: 14px; padding: 10px 14px; border-radius: 14px; white-space: nowrap; box-shadow: 0 12px 24px -10px rgba(26,21,48,.7); }
+.map .pin::after { content: ""; position: absolute; left: 50%; bottom: -8px; transform: translateX(-50%); border: 8px solid transparent; border-top-color: var(--ink); border-bottom: 0; }
+.map .map-btn { position: absolute; right: 14px; bottom: 14px; }
+.info { background: #fff; border: 1px solid var(--line); border-radius: 32px; padding: 26px; display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 0; }
+.info dt { font-size: 13px; color: var(--muted); font-weight: 600; }
+.info dd { margin: 2px 0 0; font-weight: 700; }
+.info a { text-decoration: none; }
+.messengers { display: flex; gap: 10px; grid-column: 1 / -1; flex-wrap: wrap; }
+
+footer { padding: 40px 0 110px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); }
+.foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; }
+.foot a { color: var(--muted); }
+.foot .links { display: flex; flex-direction: column; gap: 6px; }
+.concept { margin-top: 24px; padding: 12px 16px; border-radius: 12px; background: var(--bg-2); color: var(--ink); font-size: 13px; }
+
+.mobile-bar { display: none; position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 60; gap: 8px; padding: 8px; background: rgba(26,21,48,.94); border-radius: 999px; backdrop-filter: blur(8px); }
+.mobile-bar .btn { flex: 1; min-height: 48px; }
+.mobile-bar .btn-ghost { background: rgba(255,255,255,.12); color: #fff; border: 0; }
+.mobile-bar .btn-primary { background: #fff; color: var(--ink); }
+
+
+.toast { position: fixed; left: 50%; bottom: 96px; z-index: 80; transform: translate(-50%, 20px); opacity: 0; pointer-events: none; max-width: calc(100% - 32px); background: var(--ink); color: #fff; font-size: 14px; padding: 12px 18px; border-radius: 16px; transition: opacity .25s, transform .25s; }
+.toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+.js .reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s cubic-bezier(.2,.7,.2,1); }
+.js .reveal.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: no-preference) {
+  .aurora { animation: drift 16s ease-in-out infinite alternate; }
+  .glass { animation: pop .7s cubic-bezier(.2,.7,.2,1) .4s both, bob 7s ease-in-out 1.4s infinite; }
+  .g-2 { animation-delay: .6s, 2s; } .g-3 { animation-delay: .8s, 2.6s; }
+  .art-num { animation: fadein 1s ease .2s both; }
+  @keyframes drift { 0% { transform: rotate(0deg) scale(1); } 100% { transform: rotate(20deg) scale(1.08); } }
+  @keyframes pop { from { opacity: 0; transform: translateY(12px) scale(.97); } to { opacity: 1; transform: none; } }
+  @keyframes bob { 0%, 100% { translate: 0 0; } 50% { translate: 0 -6px; } }
+  @keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+}
+
+@media (max-width: 1020px) {
+  .programs, .team { grid-template-columns: repeat(2, 1fr); }
+  .pcalc { grid-template-columns: minmax(0,1fr); }
+  .pc-sum { position: relative; top: 0; }
+  .steps { grid-template-columns: repeat(2, 1fr); }
+  .schedule { grid-template-columns: repeat(3, 1fr); }
+  .nav-links, .nav-phone { display: none; }
+  .burger { display: block; }
+  header.open .nav-links { display: flex; flex-direction: column; gap: 2px; position: absolute; top: 74px; left: 12px; right: 12px; background: #fff; border: 1px solid var(--line); padding: 10px; border-radius: 22px; box-shadow: 0 24px 50px -24px rgba(26,21,48,.3); }
+  header.open .nav-links a { padding: 12px 14px; font-size: 17px; color: var(--ink); }
+  .hero-grid { grid-template-columns: 1fr; gap: 36px; }
+  .hero-art { justify-self: center; aspect-ratio: 1.3 / 1; max-width: 640px; }
+}
+@media (max-width: 760px) {
+  body { font-size: 16px; }
+  section { padding: 60px 0; }
+  .hero { padding: 24px 0 56px; }
+  .hero h1 { font-size: clamp(36px, 10.5vw, 48px); }
+  .hero-lead { font-size: 17px; margin: 16px 0 24px; }
+  .hero-actions .btn { flex: 1 1 100%; }
+  .hero-facts { margin-top: 28px; }
+  .hero-facts div { padding-right: 0; margin-right: 22px; }
+  .hero-facts b { font-size: 22px; }
+  .hero-art { aspect-ratio: 1 / 1; border-radius: 30px; }
+  .why, .reviews, .contact-grid { grid-template-columns: 1fr; }
+  .first { padding: 36px 22px; border-radius: 30px; }
+  .steps { grid-template-columns: 1fr; }
+  .day-tabs { display: flex; }
+  .schedule { grid-template-columns: 1fr; }
+  .day { display: none; }
+  .day.active { display: block; }
+  .ages { display: flex; border-radius: 22px; }
+  .form-card { padding: 26px 20px; border-radius: 26px; }
+  .info { grid-template-columns: 1fr; }
+  .mobile-bar { display: flex; }
+}
+@media (max-width: 520px) {
+  .programs, .team { grid-template-columns: 1fr; }
+  .pc-packs { grid-template-columns: 1fr 1fr; }
+  .pc-box, .pc-sum { padding: 22px 18px; border-radius: 24px; }
+  .row2 { grid-template-columns: 1fr; }
+  .glass { font-size: 13px; padding: 11px 13px; }
+  .g-3 { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+  .js .reveal { opacity: 1; transform: none; }
+}
+</style>
+</head>
+<body>
+
+<div class="concept-bar">Концепт-проект студии <a href="../../index.html">«Вывеска»</a>: центр, педагоги, цены и отзывы вымышлены</div>
+<div class="toast" id="toast" role="status"></div>
+
+<header id="top">
+  <div class="wrap nav">
+    <a class="logo" href="#top" aria-label="Пятнашки — на главную">
+      <svg width="40" height="40" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="10" fill="#1A1530"/><circle cx="11" cy="12" r="3.2" fill="#fff"/><circle cx="21" cy="12" r="3.2" fill="#FFC23D"/><circle cx="11" cy="21" r="3.2" fill="#3CC6A8"/><circle cx="21" cy="21" r="3.2" fill="#fff"/></svg>
+      <span>Пятнашки<small>детский центр</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Разделы">
+      <a href="#programs">Занятия</a>
+      <a href="#schedule">Расписание</a>
+      <a href="#team">Педагоги</a>
+      <a href="#prices">Цены</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="nav-phone" href="tel:+79000000000">+7 (900) 000-00-00</a>
+    <button class="burger" aria-label="Меню" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="hero-badge"><i></i>Набор в группы на осень открыт</div>
+      <h1>Развивающий центр, куда дети <em>бегут сами</em></h1>
+      <p class="hero-lead">Подготовка к школе, английский, логопед и робототехника для детей от 1 до 10 лет. Казань, Советский район. Первое занятие бесплатно.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#signup">Записаться на пробное</a>
+        <a class="btn btn-ghost" href="tel:+79000000000">Позвонить</a>
+      </div>
+      <div class="hero-facts">
+        <div><b>до 6</b><span>детей в группе</span></div>
+        <div><b>8 лет</b><span>средний стаж педагогов</span></div>
+        <div><b>5 мин</b><span>от метро</span></div>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="aurora"></div>
+      <div class="art-num"><b>1–10</b><span>лет · группы до 6 детей</span></div>
+      <div class="glass g-1"><span class="live">есть 2 места</span><b>Подготовка к школе</b><small>сегодня в 16:30</small></div>
+      <div class="glass g-3"><div class="dots"><i style="background:#C93A20">АС</i><i style="background:#2BB38F">МИ</i><i style="background:#6FA8FF">ЕП</i><i style="background:#A58BFF">ДК</i></div><div><b>Педагоги</b><small>стаж от 6 лет</small></div></div>
+      <div class="glass g-2"><span class="ok">✓</span><div><b>Пробное — бесплатно</b><small>можно остаться в группе</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="programs">
+  <div class="wrap">
+    <div class="reveal section-head">
+      <h2>Подберите занятие по возрасту ребёнка</h2>
+      <p>Нажмите на возраст — покажем, что подойдёт. На любое занятие можно прийти на бесплатное пробное.</p>
+    </div>
+    <div class="ages" role="group" aria-label="Возраст ребёнка">
+      <button class="age-chip" data-age="all" aria-pressed="true">Все занятия</button>
+      <button class="age-chip" data-age="a1" aria-pressed="false">1–3 года</button>
+      <button class="age-chip" data-age="a2" aria-pressed="false">3–5 лет</button>
+      <button class="age-chip" data-age="a3" aria-pressed="false">5–7 лет</button>
+      <button class="age-chip" data-age="a4" aria-pressed="false">7–10 лет</button>
+    </div>
+
+    <div class="reveal programs">
+      <article class="program" data-ages="a1">
+        <div class="ico" style="background:var(--soft-accent)"><svg viewBox="0 0 24 24" fill="none" stroke="#FF6B4A" stroke-width="2" stroke-linecap="round"><circle cx="8" cy="7" r="3"/><circle cx="17" cy="9" r="2.2"/><path d="M3 20c0-3 2.2-5.5 5-5.5s5 2.5 5 5.5M13.5 20c0-2.2 1.6-4 3.5-4s3.5 1.8 3.5 4"/></svg></div>
+        <span class="age">1–3 года · с мамой или папой</span>
+        <h3>«Вместе с мамой»</h3>
+        <p>Сенсорика, музыка, пальчиковые игры и первые навыки общения в группе.</p>
+        <div class="meta"><span class="price">от 700 ₽</span><button class="trial" data-program="«Вместе с мамой»">Пробное →</button></div>
+      </article>
+      <article class="program" data-ages="a1 a2">
+        <div class="ico" style="background:var(--soft-sun)"><svg viewBox="0 0 24 24" fill="none" stroke="#D99A00" stroke-width="2" stroke-linejoin="round"><rect x="3" y="13" width="7" height="7" rx="1.5"/><rect x="14" y="13" width="7" height="7" rx="1.5"/><rect x="8.5" y="4" width="7" height="7" rx="1.5"/></svg></div>
+        <span class="age">2–4 года</span>
+        <h3>Монтессори-группа</h3>
+        <p>Самостоятельность, мелкая моторика и спокойная работа с материалами.</p>
+        <div class="meta"><span class="price">от 800 ₽</span><button class="trial" data-program="Монтессори-группа">Пробное →</button></div>
+      </article>
+      <article class="program" data-ages="a2">
+        <div class="ico" style="background:var(--soft-mint)"><svg viewBox="0 0 24 24" fill="none" stroke="#1E9E83" stroke-width="2" stroke-linecap="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg></div>
+        <span class="age">3–5 лет</span>
+        <h3>Раннее развитие «Знайка»</h3>
+        <p>Речь, логика, внимание и память — через игру, без парт и оценок.</p>
+        <div class="meta"><span class="price">от 800 ₽</span><button class="trial" data-program="Раннее развитие «Знайка»">Пробное →</button></div>
+      </article>
+      <article class="program" data-ages="a3">
+        <div class="ico" style="background:var(--soft-sky)"><svg viewBox="0 0 24 24" fill="none" stroke="#3D7FE0" stroke-width="2" stroke-linejoin="round"><path d="M4 5.5C6.5 4 9.5 4 12 5.5v14c-2.5-1.5-5.5-1.5-8 0v-14zM20 5.5C17.5 4 14.5 4 12 5.5v14c2.5-1.5 5.5-1.5 8 0v-14z"/></svg></div>
+        <span class="age">5–7 лет</span>
+        <h3>Подготовка к школе</h3>
+        <p>Чтение, счёт, подготовка руки к письму и умение работать на уроке 30 минут.</p>
+        <div class="meta"><span class="price">от 900 ₽</span><button class="trial" data-program="Подготовка к школе">Пробное →</button></div>
+      </article>
+      <article class="program" data-ages="a2 a3 a4">
+        <div class="ico" style="background:var(--soft-mint)"><svg viewBox="0 0 24 24" fill="none" stroke="#1E9E83" stroke-width="2" stroke-linejoin="round"><path d="M4 5h16v10H9l-5 4V5z"/><path d="M8 9h8M8 12h5" stroke-linecap="round"/></svg></div>
+        <span class="age">4–10 лет · группы по возрасту</span>
+        <h3>Английский в игре</h3>
+        <p>Разговорный английский с первого занятия: песни, игры, мини-спектакли.</p>
+        <div class="meta"><span class="price">от 850 ₽</span><button class="trial" data-program="Английский в игре">Пробное →</button></div>
+      </article>
+      <article class="program" data-ages="a2 a3 a4">
+        <div class="ico" style="background:var(--soft-accent)"><svg viewBox="0 0 24 24" fill="none" stroke="#FF6B4A" stroke-width="2" stroke-linecap="round"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zM5 11a7 7 0 0 0 14 0M12 18v3"/></svg></div>
+        <span class="age">4–10 лет · индивидуально</span>
+        <h3>Логопед</h3>
+        <p>Диагностика и постановка звуков. После первой встречи — понятный план занятий.</p>
+        <div class="meta"><span class="price">от 1 200 ₽</span><button class="trial" data-program="Логопед">Записаться →</button></div>
+      </article>
+      <article class="program" data-ages="a2 a3 a4">
+        <div class="ico" style="background:var(--soft-sun)"><svg viewBox="0 0 24 24" fill="none" stroke="#D99A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 0 18c1.2 0 2-.8 2-1.8 0-.5-.2-.9-.5-1.2-.3-.3-.5-.7-.5-1.2 0-1 .8-1.8 1.8-1.8H17a4 4 0 0 0 4-4C21 6.6 17 3 12 3z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7" r="1"/><circle cx="15" cy="7" r="1"/></svg></div>
+        <span class="age">3–10 лет</span>
+        <h3>Творческая мастерская</h3>
+        <p>Рисование, лепка, поделки. Работы забираете домой после каждого занятия.</p>
+        <div class="meta"><span class="price">от 750 ₽</span><button class="trial" data-program="Творческая мастерская">Пробное →</button></div>
+      </article>
+      <article class="program" data-ages="a3 a4">
+        <div class="ico" style="background:var(--soft-lilac)"><svg viewBox="0 0 24 24" fill="none" stroke="#7E5BEF" stroke-width="2" stroke-linejoin="round"><rect x="5" y="8" width="14" height="11" rx="3"/><path d="M12 8V4M9 13h.01M15 13h.01M9.5 16h5" stroke-linecap="round"/><circle cx="12" cy="3.5" r="1"/></svg></div>
+        <span class="age">6–10 лет</span>
+        <h3>Робототехника</h3>
+        <p>Собираем и программируем роботов из конструктора. Развивает инженерное мышление.</p>
+        <div class="meta"><span class="price">от 950 ₽</span><button class="trial" data-program="Робототехника">Пробное →</button></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="first">
+      <div class="reveal section-head">
+        <h2>Как проходит пробное занятие</h2>
+        <p>Понимаем, что отдать ребёнка в новое место волнительно. Поэтому первый раз — без обязательств.</p>
+      </div>
+      <div class="reveal steps">
+        <div class="step"><h3>Оставляете заявку</h3><p>Администратор перезвонит в течение 15 минут и подберёт удобное время.</p></div>
+        <div class="step"><h3>Знакомство</h3><p>Приходите за 10 минут: покажем центр, познакомим с педагогом.</p></div>
+        <div class="step"><h3>Занятие</h3><p>Можно остаться в группе или смотреть из холла — как будет спокойнее ребёнку.</p></div>
+        <div class="step"><h3>Обратная связь</h3><p>Педагог расскажет, что получилось и какая группа подойдёт. Решаете сами.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="reveal section-head">
+      <h2>Что важно родителям</h2>
+    </div>
+    <div class="reveal why">
+      <div class="why-item"><div class="big">6</div><h3>Маленькие группы</h3><p>Не больше 6 детей — педагог успевает уделить внимание каждому.</p></div>
+      <div class="why-item"><div class="big">0 ₽</div><h3>Пропуски не сгорают</h3><p>Заболели — перенесём занятие бесплатно или заморозим абонемент по справке.</p></div>
+      <div class="why-item"><div class="big">24/7</div><h3>Безопасно и чисто</h3><p>Видеонаблюдение круглосуточно, вход по звонку, мягкие полы, проветривание между группами.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="schedule">
+  <div class="wrap">
+    <div class="reveal section-head">
+      <h2>Расписание на неделю</h2>
+      <p>Утром — малыши, после 16:00 — школьники и подготовка к школе.</p>
+    </div>
+    <div class="day-tabs" role="tablist" aria-label="День недели"></div>
+    <div class="reveal schedule">
+      <div class="day" data-day="Пн"><h3>Понедельник</h3>
+        <div class="slot s-small"><time>10:00</time>Вместе с мамой<br><small>1–3 года</small></div>
+        <div class="slot s-small"><time>11:00</time>Монтессори<br><small>2–4 года</small></div>
+        <div class="slot s-school"><time>16:30</time>Подготовка к школе<br><small>5–7 лет</small></div>
+        <div class="slot s-lang"><time>17:30</time>Английский<br><small>7–10 лет</small></div>
+      </div>
+      <div class="day" data-day="Вт"><h3>Вторник</h3>
+        <div class="slot s-small"><time>10:00</time>«Знайка»<br><small>3–5 лет</small></div>
+        <div class="slot s-small"><time>11:00</time>Монтессори<br><small>2–4 года</small></div>
+        <div class="slot s-tech"><time>17:00</time>Робототехника<br><small>6–10 лет</small></div>
+        <div class="slot s-art"><time>18:00</time>Мастерская<br><small>3–10 лет</small></div>
+      </div>
+      <div class="day" data-day="Ср"><h3>Среда</h3>
+        <div class="slot s-small"><time>10:00</time>Вместе с мамой<br><small>1–3 года</small></div>
+        <div class="slot s-school"><time>16:30</time>Подготовка к школе<br><small>5–7 лет</small></div>
+        <div class="slot s-lang"><time>17:30</time>Английский<br><small>4–6 лет</small></div>
+        <div class="slot s-school"><time>18:30</time>Логопед<br><small>по записи</small></div>
+      </div>
+      <div class="day" data-day="Чт"><h3>Четверг</h3>
+        <div class="slot s-small"><time>10:00</time>«Знайка»<br><small>3–5 лет</small></div>
+        <div class="slot s-small"><time>11:00</time>Монтессори<br><small>2–4 года</small></div>
+        <div class="slot s-tech"><time>17:00</time>Робототехника<br><small>6–10 лет</small></div>
+        <div class="slot s-art"><time>18:00</time>Мастерская<br><small>3–10 лет</small></div>
+      </div>
+      <div class="day" data-day="Пт"><h3>Пятница</h3>
+        <div class="slot s-small"><time>10:00</time>Вместе с мамой<br><small>1–3 года</small></div>
+        <div class="slot s-school"><time>16:30</time>Подготовка к школе<br><small>5–7 лет</small></div>
+        <div class="slot s-lang"><time>17:30</time>Английский<br><small>7–10 лет</small></div>
+        <div class="slot s-school"><time>18:30</time>Логопед<br><small>по записи</small></div>
+      </div>
+      <div class="day" data-day="Сб"><h3>Суббота</h3>
+        <div class="slot s-art"><time>10:00</time>Мастерская<br><small>3–10 лет</small></div>
+        <div class="slot s-small"><time>11:00</time>«Знайка»<br><small>3–5 лет</small></div>
+        <div class="slot s-tech"><time>12:00</time>Робототехника<br><small>6–10 лет</small></div>
+        <div class="slot s-art"><time>13:00</time>Семейный мастер-класс<br><small>для всех</small></div>
+      </div>
+    </div>
+    <div class="legend">
+      <span><i style="background:var(--soft-accent)"></i>Малыши</span>
+      <span><i style="background:var(--soft-sky)"></i>Школа и логопед</span>
+      <span><i style="background:var(--soft-mint)"></i>Английский</span>
+      <span><i style="background:var(--soft-sun)"></i>Творчество</span>
+      <span><i style="background:var(--soft-lilac)"></i>Техника</span>
+    </div>
+  </div>
+</section>
+
+<section id="team">
+  <div class="wrap">
+    <div class="reveal section-head">
+      <h2>Кто будет заниматься с вашим ребёнком</h2>
+      <p>У каждого педагога — профильное образование и опыт работы с детьми.</p>
+    </div>
+    <div class="reveal team">
+      <div class="teacher">
+        <div class="avatar" style="background:linear-gradient(150deg,#FFA48A,#C93A20)">АС</div>
+        <h3>Анна Сорокина</h3><div class="role">Руководитель, педагог-психолог</div>
+        <ul><li>Стаж 12 лет</li><li>Высшее педагогическое</li><li>Ведёт «Знайку»</li></ul>
+      </div>
+      <div class="teacher">
+        <div class="avatar" style="background:linear-gradient(150deg,#7FE0C4,#1E9277)">МИ</div>
+        <h3>Мария Ильина</h3><div class="role">Монтессори-педагог</div>
+        <ul><li>Стаж 8 лет</li><li>Курс Монтессори-педагогики</li><li>Группы 1–4 года</li></ul>
+      </div>
+      <div class="teacher">
+        <div class="avatar" style="background:linear-gradient(150deg,#A9CBFF,#3D7FE0)">ЕП</div>
+        <h3>Елена Павлова</h3><div class="role">Учитель начальных классов</div>
+        <ul><li>Стаж 15 лет в школе</li><li>Подготовка к школе</li><li>Знает, что спросят в 1 классе</li></ul>
+      </div>
+      <div class="teacher">
+        <div class="avatar" style="background:linear-gradient(150deg,#CDBDFF,#7A5AF0)">ДК</div>
+        <h3>Дмитрий Козлов</h3><div class="role">Педагог робототехники</div>
+        <ul><li>Инженер по образованию</li><li>Стаж с детьми 6 лет</li><li>Готовит к соревнованиям</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="prices">
+  <div class="wrap">
+    <div class="reveal section-head">
+      <h2>Стоимость занятий</h2>
+      <p>Выберите занятие и абонемент — посчитаем стоимость сразу. Чем больше занятий, тем дешевле каждое.</p>
+    </div>
+    <div class="reveal pcalc">
+      <div class="pc-box">
+        <div class="pc-step">
+          <span class="pc-label" id="pcl-prog">1. Занятие</span>
+          <div class="pc-progs" role="radiogroup" aria-labelledby="pcl-prog" id="pcProgs"></div>
+        </div>
+        <div class="pc-step">
+          <span class="pc-label" id="pcl-pack">2. Сколько занятий</span>
+          <div class="pc-packs" role="radiogroup" aria-labelledby="pcl-pack" id="pcPacks"></div>
+        </div>
+        <div class="pc-step">
+          <span class="pc-label">3. Скидки</span>
+          <div class="pc-opts">
+            <label class="pc-opt"><input type="checkbox" id="pcSecond"><span>Второй ребёнок из семьи<small>−10% на абонемент</small></span></label>
+            <label class="pc-opt"><input type="checkbox" id="pcBig"><span>Многодетная семья<small>−15%, не суммируется с другими скидками</small></span></label>
+          </div>
+        </div>
+      </div>
+      <aside class="pc-sum" aria-live="polite">
+        <div class="k" id="pcTitle">Подготовка к школе · 8 занятий</div>
+        <div class="total" id="pcTotal">0 ₽</div>
+        <div class="per" id="pcPer"></div>
+        <ul id="pcLines"></ul>
+        <button class="btn btn-primary" type="button" id="pcGo">Записаться на пробное</button>
+        <p class="trial-note">Первое занятие бесплатно. Абонемент оформляете, только если ребёнку понравилось.</p>
+      </aside>
+    </div>
+    <p class="offer-note">Информация о ценах носит ознакомительный характер и не является публичной офертой. Оплата наличными, картой или переводом в центре. Цены в концепте вымышлены.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="reveal section-head">
+      <h2>Что говорят родители</h2>
+    </div>
+    <div class="reveal reviews">
+      <div class="review"><div class="stars">★★★★★</div><p>Сын ходит на подготовку к школе с сентября. Начал читать по слогам и сам просится на занятия — для нас это главное.</p><div class="who">Мама Артёма, 6 лет</div></div>
+      <div class="review"><div class="stars">★★★★★</div><p>Понравилось, что на первом занятии можно было остаться в группе. Дочка освоилась за 15 минут, теперь бежит туда сама.</p><div class="who">Мама Вари, 2 года</div></div>
+      <div class="review"><div class="stars">★★★★★</div><p>Робототехника — лучшее, что мы нашли рядом с домом. Группа маленькая, Дмитрий объясняет так, что ребёнку правда интересно.</p><div class="who">Папа Миши, 8 лет</div></div>
+    </div>
+    <div class="reviews-foot">
+      <div class="rating"><b>4,9</b><span>★★★★★<br><small style="color:var(--muted);font-weight:600">на Яндекс Картах</small></span></div>
+      <a class="btn btn-ghost btn-sm" href="#">Все отзывы на Яндекс Картах</a>
+      <span class="demo-note">Демо: в рабочем сайте здесь — виджет настоящих отзывов с карточки организации.</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="reveal section-head">
+      <h2>Частые вопросы родителей</h2>
+    </div>
+    <div class="reveal faq">
+      <details><summary>С какого возраста можно прийти?</summary><p>С 1 года — в группу «Вместе с мамой», где вы занимаетесь вместе с ребёнком. Самостоятельно дети остаются обычно с 3 лет.</p></details>
+      <details><summary>Можно ли присутствовать на занятии?</summary><p>На пробном — да, это нормально. Дальше решаем вместе с педагогом: чаще всего дети быстрее включаются, когда родитель ждёт в холле.</p></details>
+      <details><summary>Что взять с собой?</summary><p>Сменную обувь и бутылочку воды. Все материалы для занятий — наши, они входят в стоимость.</p></details>
+      <details><summary>Что если ребёнок заболел?</summary><p>Предупредите администратора до начала занятия — перенесём его на другой день. При болезни дольше недели заморозим абонемент.</p></details>
+      <details><summary>Есть ли скидки?</summary><p>Второму ребёнку из семьи — 10%, многодетным семьям — 15%. Скидки не суммируются.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="contacts">
+  <div class="wrap contact-grid">
+    <div class="form-card" id="signup">
+      <form id="signupForm" novalidate>
+        <h2>Запишитесь на бесплатное пробное</h2>
+        <p>Перезвоним в течение 15 минут в рабочее время и подберём группу.</p>
+        <div class="field"><label for="f-name">Ваше имя</label><input id="f-name" name="name" autocomplete="given-name" required maxlength="60" placeholder="Например, Анна"></div>
+        <div class="field"><label for="f-phone">Телефон</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required placeholder="+7 (___) ___-__-__"></div>
+        <div class="row2">
+          <div class="field"><label for="f-age">Возраст ребёнка</label>
+            <select id="f-age" name="age"><option>1–3 года</option><option>3–5 лет</option><option selected>5–7 лет</option><option>7–10 лет</option></select>
+          </div>
+          <div class="field"><label for="f-program">Занятие</label>
+            <select id="f-program" name="program">
+              <option>Помогите выбрать</option>
+              <option>«Вместе с мамой»</option><option>Монтессори-группа</option><option>Раннее развитие «Знайка»</option>
+              <option>Подготовка к школе</option><option>Английский в игре</option><option>Логопед</option>
+              <option>Творческая мастерская</option><option>Робототехника</option>
+            </select>
+          </div>
+        </div>
+        <div class="field"><label for="f-plan">Абонемент</label>
+          <select id="f-plan" name="plan"><option>Пока только пробное</option><option>Разовое занятие</option><option>4 занятия</option><option>8 занятий</option><option>12 занятий</option></select>
+        </div>
+                <div class="hp" aria-hidden="true"><label>Сайт <input name="website" tabindex="-1" autocomplete="off"></label></div>
+        <label class="consent"><input type="checkbox" id="f-consent" required>
+          <span>Согласен(на), чтобы со мной связались по указанному телефону</span>
+        </label>
+        <button class="btn btn-primary" type="submit">Записаться на пробное</button>
+        <p class="demo-note" id="formError" role="alert" style="margin-top:10px;color:#C2410C"></p>
+      </form>
+      <div class="form-ok" role="status">
+        <div class="check">✓</div>
+        <h2>Заявка принята!</h2>
+        <p>Перезвоним в течение 15 минут в рабочее время.</p>
+        <p class="demo-note">Демо: в рабочем сайте заявка сразу приходит владельцу в Telegram и сохраняется в журнале.</p>
+      </div>
+    </div>
+
+    <div class="contacts">
+      <div class="map" role="img" aria-label="Схема проезда">
+        <div class="park"></div>
+        <div class="pin">Пятнашки · Солнечная, 15</div>
+        <a class="btn btn-ghost btn-sm map-btn" href="#">Открыть в Яндекс Картах</a>
+      </div>
+      <dl class="info">
+        <div><dt>Адрес</dt><dd>Казань, ул. Солнечная, 15<br><span style="font-weight:500;color:var(--muted)">вход со двора, 1 этаж</span></dd></div>
+        <div><dt>Часы работы</dt><dd>Пн–Пт 9:00–20:00<br>Сб 10:00–15:00</dd></div>
+        <div><dt>Телефон</dt><dd><a href="tel:+79000000000">+7 (900) 000-00-00</a></dd></div>
+        <div><dt>Почта</dt><dd><a href="mailto:hello@example.ru">hello@example.ru</a></dd></div>
+        <div class="messengers">
+          <a class="btn btn-ghost btn-sm" href="#">Telegram</a>
+          <a class="btn btn-ghost btn-sm" href="#">ВКонтакте</a>
+          <a class="btn btn-ghost btn-sm" href="#">2ГИС</a>
+        </div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <b style="color:var(--ink)">Детский центр «Пятнашки»</b><br>
+        ИП Сорокина Анна Сергеевна<br>
+        ИНН 000000000000 · ОГРНИП 000000000000000<br>
+        Казань, ул. Солнечная, 15
+      </div>
+    </div>
+    <div class="concept">Концепт-проект: название, педагоги, отзывы и реквизиты вымышлены. Сайт показывает, как может выглядеть сайт детского центра. Сделано в студии <a href="../../index.html">«Вывеска»</a>.</div>
+  </div>
+</footer>
+
+<div class="mobile-bar">
+  <a class="btn btn-ghost" href="tel:+79000000000">Позвонить</a>
+  <a class="btn btn-primary" href="#signup">Записаться</a>
+</div>
+
+<script>
+(function () {
+  var header = document.querySelector('header');
+  var burger = document.querySelector('.burger');
+  addEventListener('scroll', function () { header.classList.toggle('scrolled', scrollY > 8); }, { passive: true });
+  burger.addEventListener('click', function () {
+    var open = header.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open);
+  });
+  document.querySelectorAll('.nav-links a').forEach(function (a) {
+    a.addEventListener('click', function () { header.classList.remove('open'); burger.setAttribute('aria-expanded', false); });
+  });
+
+  var chips = document.querySelectorAll('.age-chip');
+  var cards = document.querySelectorAll('.program');
+  var ageSelect = document.getElementById('f-age');
+  var ageLabels = { a1: '1–3 года', a2: '3–5 лет', a3: '5–7 лет', a4: '7–10 лет' };
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      var age = chip.dataset.age;
+      chips.forEach(function (c) { c.setAttribute('aria-pressed', c === chip); });
+      cards.forEach(function (card) {
+        card.hidden = age !== 'all' && card.dataset.ages.split(' ').indexOf(age) === -1;
+      });
+      if (ageLabels[age]) ageSelect.value = ageLabels[age];
+    });
+  });
+
+  var programSelect = document.getElementById('f-program');
+  document.querySelectorAll('.trial').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      programSelect.value = btn.dataset.program;
+      document.getElementById('signup').scrollIntoView({ behavior: 'smooth' });
+      setTimeout(function () { document.getElementById('f-name').focus({ preventScroll: true }); }, 500);
+    });
+  });
+
+  var days = document.querySelectorAll('.day');
+  var tabs = document.querySelector('.day-tabs');
+  var today = ['Пн', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'][new Date().getDay()];
+  days.forEach(function (day) {
+    var tab = document.createElement('button');
+    tab.className = 'day-tab';
+    tab.setAttribute('role', 'tab');
+    tab.textContent = day.dataset.day;
+    tab.addEventListener('click', function () { selectDay(day.dataset.day); });
+    tabs.appendChild(tab);
+  });
+  function selectDay(name) {
+    days.forEach(function (d) { d.classList.toggle('active', d.dataset.day === name); });
+    tabs.querySelectorAll('.day-tab').forEach(function (t) { t.setAttribute('aria-selected', t.textContent === name); });
+  }
+  selectDay(today);
+
+  var phone = document.getElementById('f-phone');
+  phone.addEventListener('input', function () {
+    var d = phone.value.replace(/\D/g, '');
+    if (d[0] === '8' || d[0] === '7') d = d.slice(1);
+    d = d.slice(0, 10);
+    var out = '+7';
+    if (d.length) out += ' (' + d.slice(0, 3);
+    if (d.length >= 3) out += ') ' + d.slice(3, 6);
+    if (d.length >= 6) out += '-' + d.slice(6, 8);
+    if (d.length >= 8) out += '-' + d.slice(8, 10);
+    phone.value = out;
+  });
+
+  var form = document.getElementById('signupForm');
+  var err = document.getElementById('formError');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    err.textContent = '';
+    if (form.website.value) return;
+    if (!form.name.value.trim()) { err.textContent = 'Напишите, как к вам обращаться.'; form.name.focus(); return; }
+    if (phone.value.replace(/\D/g, '').length !== 11) { err.textContent = 'Проверьте номер телефона — нужно 10 цифр после +7.'; phone.focus(); return; }
+    if (!document.getElementById('f-consent').checked) { err.textContent = 'Отметьте галочку, чтобы отправить заявку.'; return; }
+    document.getElementById('signup').classList.add('sent');
+  });
+
+  var PACKS = [
+    { n: 1, name: 'Разовое', k: 1, plan: 'Разовое занятие' },
+    { n: 4, name: '4 занятия', k: .95, plan: '4 занятия' },
+    { n: 8, name: '8 занятий', k: .875, plan: '8 занятий', hot: true },
+    { n: 12, name: '12 занятий', k: .8125, plan: '12 занятий' }
+  ];
+  var progs = [].map.call(document.querySelectorAll('.program'), function (card) {
+    return { name: card.querySelector('.trial').dataset.program, short: card.querySelector('h3').textContent.replace(/[«»]/g, ''), price: +card.querySelector('.price').textContent.replace(/\D/g, '') };
+  });
+  var pc = { prog: 3, pack: 2 };
+  var progBox = document.getElementById('pcProgs'), packBox = document.getElementById('pcPacks');
+  function rub(n) { return n.toLocaleString('ru-RU').replace(/\u00a0/g, ' ') + ' ₽'; }
+  function perLesson(price, pack) { return Math.round(price * pack.k / 10) * 10; }
+  progs.forEach(function (pr, i) {
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'pc-prog'; b.setAttribute('role', 'radio'); b.textContent = pr.short;
+    b.addEventListener('click', function () { pc.prog = i; renderPc(); });
+    progBox.appendChild(b);
+  });
+  PACKS.forEach(function (pk, i) {
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'pc-pack'; b.setAttribute('role', 'radio');
+    b.addEventListener('click', function () { pc.pack = i; renderPc(); });
+    packBox.appendChild(b);
+  });
+  var second = document.getElementById('pcSecond'), big = document.getElementById('pcBig');
+  second.addEventListener('change', function () { if (second.checked) big.checked = false; renderPc(); });
+  big.addEventListener('change', function () { if (big.checked) second.checked = false; renderPc(); });
+  var shown = 0, raf;
+  function countTo(v) {
+    var el = document.getElementById('pcTotal'), from = shown, t0 = performance.now();
+    cancelAnimationFrame(raf);
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) { shown = v; el.textContent = rub(v); return; }
+    (function f(t) { var k = Math.min(1, (t - t0) / 420); k = 1 - Math.pow(1 - k, 3); shown = Math.round(from + (v - from) * k); el.textContent = rub(shown); if (k < 1) raf = requestAnimationFrame(f); })(t0);
+  }
+  function renderPc() {
+    var pr = progs[pc.prog], pk = PACKS[pc.pack];
+    progBox.querySelectorAll('.pc-prog').forEach(function (b, i) { b.setAttribute('aria-checked', i === pc.prog); });
+    packBox.querySelectorAll('.pc-pack').forEach(function (b, i) {
+      var p = PACKS[i], per = perLesson(pr.price, p), save = Math.round((1 - p.k) * 100);
+      b.setAttribute('aria-checked', i === pc.pack);
+      b.innerHTML = (save ? '<span class="save">−' + save + '%</span>' : '') + '<b>' + p.name + '</b><span>' + (p.n === 1 ? 'без абонемента' : (p.n / 4) + ' раз' + (p.n === 8 ? 'а' : p.n === 12 ? 'а' : '') + ' в неделю') + '</span><span class="pc-per">' + rub(per) + ' / зан.</span>';
+    });
+    var per = perLesson(pr.price, pk), base = per * pk.n, disc = pk.n > 1 ? (big.checked ? .15 : second.checked ? .10 : 0) : 0;
+    var off = Math.round(base * disc / 10) * 10, total = base - off;
+    var full = pr.price * pk.n;
+    document.getElementById('pcTitle').textContent = pr.short + ' · ' + pk.name.toLowerCase();
+    document.getElementById('pcPer').textContent = pk.n > 1 ? rub(Math.round(total / pk.n)) + ' за занятие' : 'оплата на месте';
+    var lines = '<li><span>' + pk.n + ' × ' + rub(per) + '</span><span>' + rub(base) + '</span></li>';
+    if (full > base) lines += '<li class="good"><span>Выгода абонемента</span><span>−' + rub(full - base) + '</span></li>';
+    if (off) lines += '<li class="good"><span>' + (big.checked ? 'Многодетным −15%' : 'Второй ребёнок −10%') + '</span><span>−' + rub(off) + '</span></li>';
+    if (pk.n === 1 && (second.checked || big.checked)) lines += '<li><span>Скидки действуют на абонементы</span><span></span></li>';
+    lines += '<li class="good"><span>Первое занятие</span><span>бесплатно</span></li>';
+    document.getElementById('pcLines').innerHTML = lines;
+    countTo(total);
+  }
+  renderPc();
+  document.getElementById('pcGo').addEventListener('click', function () {
+    programSelect.value = progs[pc.prog].name;
+    document.getElementById('f-plan').value = PACKS[pc.pack].plan;
+    document.getElementById('signup').scrollIntoView({ behavior: 'smooth' });
+    setTimeout(function () { document.getElementById('f-name').focus({ preventScroll: true }); }, 500);
+  });
+
+  var rv = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    var ro = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); ro.unobserve(e.target); } }); }, { threshold: .1 });
+    rv.forEach(function (el) { ro.observe(el); });
+  } else rv.forEach(function (el) { el.classList.add('in'); });
+
+  var toast = document.getElementById('toast'), tt;
+  document.querySelectorAll('a[href="#"]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      e.preventDefault();
+      toast.textContent = 'Это концепт: в рабочем сайте здесь будет ссылка на настоящую страницу.';
+      toast.classList.add('show'); clearTimeout(tt); tt = setTimeout(function () { toast.classList.remove('show'); }, 2600);
+    });
+  });
+
+  var preview = location.search.indexOf('preview') !== -1;
+  if (preview) { document.documentElement.style.overflow = 'hidden'; document.querySelector('.concept-bar').style.display = 'none'; document.querySelector('.mobile-bar').style.display = 'none'; document.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('in'); }); }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Страница не найдена — Вывеска</title>
+<meta name="robots" content="noindex">
+<style>
+    body { margin: 0; min-height: 100vh; background: #0A0910; color: #F5F3FA; font-family: "Manrope", "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 1200px; margin: 0 auto; padding: 0 12px; }
+  header { padding: 22px 8px; }
+  .logo { display: inline-flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; font-weight: 800; font-size: 21px; letter-spacing: -0.02em; }
+  .logo i { width: 14px; height: 14px; border-radius: 50%; background: linear-gradient(100deg, #8B6CFF, #FF5FA2 52%, #FF9D5C); box-shadow: 0 0 16px 3px rgba(255,95,162,.6); }
+  .nf { position: relative; overflow: hidden; background: radial-gradient(120% 70% at 50% 0%, #17121F, #0C0A12 60%); border: 1px solid rgba(255,255,255,.07); border-radius: 40px; margin: 0 0 48px; padding: 120px 24px 160px; text-align: center; }
+  .nf::before { content: ""; position: absolute; left: 50%; top: 70%; width: 1800px; height: 1800px; transform: translateX(-50%); border-radius: 50%; border: 1.5px solid rgba(255,255,255,.75); box-shadow: 0 0 28px 4px rgba(200,165,255,.7), 0 0 120px 30px rgba(139,108,255,.4); background: #0B0910; }
+  .nf > * { position: relative; }
+  .nf b { display: block; font-size: clamp(90px, 18vw, 180px); font-weight: 800; letter-spacing: -0.06em; line-height: 1; background: linear-gradient(100deg, #8B6CFF, #FF5FA2 52%, #FF9D5C); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .nf h1 { font-size: clamp(26px, 4vw, 40px); letter-spacing: -0.03em; margin: 18px 0 10px; }
+  .nf p { color: rgba(255,255,255,.7); margin: 0 0 30px; }
+  .nf a { display: inline-flex; min-height: 52px; align-items: center; padding: 0 28px; border-radius: 999px; background: #fff; color: #120F1A; font-weight: 700; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><a class="logo home" href="/"><i></i>вывеска</a></header>
+  <main class="nf">
+    <b>404</b>
+    <h1>Такой страницы нет</h1>
+    <p>Возможно, ссылка устарела или в адресе опечатка.</p>
+    <a class="home" href="/">На главную</a>
+  </main>
+</div>
+<script>
+  var base = /github\.io$/.test(location.hostname) ? '/' + location.pathname.split('/')[1] + '/' : '/';
+  document.querySelectorAll('.home').forEach(function (a) { a.href = base; });
+</script>
+</body>
+</html>
